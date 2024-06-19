@@ -31,7 +31,7 @@ Welcome to **ProxyShell**, a customizable bash shell designed to fetch, verify a
 ### Starting ProxyShell
 ```bash
 python proxyshell.py
-You will enter the proxyshell environment, where you can use the following commands.
+You will enter the proxyshell environment, where you can use the following commands after it automatically fetches and verifies proxies.
 
 Commands
 Proxy Management
