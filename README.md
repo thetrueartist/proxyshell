@@ -33,61 +33,44 @@ Welcome to **ProxyShell**, a customizable bash shell designed to fetch, verify a
 python proxyshell.py
 You will enter the proxyshell environment, where you can use the following commands after it automatically fetches and verifies proxies.
 
-Commands
+Commands:
+
 Proxy Management
 exit: Exit the proxy shell.
 status: Show the current proxy status.
 refresh: Refresh the proxy list by removing non-working proxies and adding new ones.
+
 Command Execution
 myip: Check the current public IP address.
 run <script_path>: Run a Python script using runpy.
 firefox: Launch Firefox with the current HTTPS proxy.
 firefox_close: Close all instances of Firefox.
+
 Web Scraping
-scrape <file_path>: Scrape URLs from a provided text file and store data in CSV format.
-Example
-Checking Public IP Address
-bash
-Copy code
-proxyshell> myip
-This command switches to a new proxy and displays your current public IP address.
-
-Running a Python Script
-bash
-Copy code
-proxyshell> run example_script.py
-Executes example_script.py with the current proxy settings.
-
-Scraping URLs
 Create a text file urls.txt with URLs to scrape, then run:
-
-bash
-Copy code
-proxyshell> scrape urls.txt
+scrape <file_path>: Scrape URLs from a provided text file and store data in CSV format:
 The scraped data will be saved to scraped_data.csv.
 
+Checking Public IP Address
+proxyshell> myip
+
+Running a Python Script
+proxyshell> run <python script path>
+
 Dependencies
+
 requests
-BeautifulSoup4
+beautifulsoup4
 pandas
 tqdm
-aiohttp
-asyncio
 colorama
+aiohttp
+
 Ensure these libraries are installed before running ProxyShell:
 
-bash
-Copy code
-pip install requests beautifulsoup4 pandas tqdm aiohttp colorama
+pip install requests beautifulsoup4 pandas tqdm colorama aiohttp
+
 Contributing
 Feel free to open issues or submit pull requests. Contributions are welcome!
 
-License
-This project is licensed under the MIT License.
-
-vbnet
-Copy code
-
-**Note**: Modify the script path and URL file as per your requirements. Ensure you have the necessary permissions and access to the system where you plan to use ProxyShell.
-
-Enjoy using ProxyShell for your proxy management and web scraping tasks!
+Enjoy using ProxyShell for your proxy usage and web scraping tasks!
