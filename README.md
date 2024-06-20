@@ -8,7 +8,7 @@ Welcome to **ProxyShell**, a customizable bash shell designed to fetch, verify a
 - **Proxy Fetching & Verification**: Fetches verfies and filters out non-working proxies from various online sources (*proxynova.com & free-proxy-list.net*).
 - **Dynamic Proxy Switching**: Automatically cycle through available HTTP and HTTPS proxies to ensure continuous connectivity.
 - **Background Verifcation**: Fetches and verifies new proxies as well as old ones to ensure reliable connectivity.
-- - **Asynchronous Requests**: **Blazing fast** - fetch and verify over 700* proxies in under 20 seconds - it utilizes `aiohttp` for speedy and efficient asynchronous HTTP/HTTPS requests.
+- **Asynchronous Requests**: **Blazing fast** - fetch and verify over 700* proxies in under 20 seconds - it utilizes `aiohttp` for speedy and efficient asynchronous HTTP/HTTPS requests.
 - **Proxy Status**: View the current status of HTTP and HTTPS proxies, including the count of available proxies.
 
 ### Command Execution
