@@ -56,8 +56,8 @@ proxyshell> myip
 
 Running a Python Script
 proxyshell> run <python script path>
-
-Dependencies
+```
+## Dependencies
 
 requests
 beautifulsoup4
@@ -66,11 +66,11 @@ tqdm
 colorama
 aiohttp
 
-Ensure these libraries are installed before running ProxyShell:
+Ensure these libraries are installed **before** running ProxyShell:
 
-pip install requests beautifulsoup4 pandas tqdm colorama aiohttp
+**pip install requests beautifulsoup4 pandas tqdm colorama aiohttp**
 
-Contributing
+## Contributing
 Feel free to open issues or submit pull requests. Contributions are welcome!
 
-Enjoy using ProxyShell for your proxy usage and web scraping tasks!
+### Enjoy using ProxyShell for your proxy usage and web scraping tasks!
