@@ -20,7 +20,7 @@ Welcome to **ProxyShell**, a customizable bash shell designed to fetch, verify a
 - **Data Parsing**: Extract titles, headings, paragraphs, tables, images, and links from HTML content using BeautifulSoup.
 
 ### IP and Browser Management
-- **Public IP Check**: Check your current public IP address using `ifconfig.me`.
+- **Public IP Check**: Check your current proxied public IP address using `ifconfig.me`.
 - **Firefox Integration**: Launch and close Firefox with the current HTTPS proxy settings.
 
 ### Drawbacks
